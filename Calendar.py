@@ -31,3 +31,6 @@ def print_calendar(start_year, end_year):
                     current_day = 0
                     print()
             print()
+            if __name__ == "__main__":
+    # Generates a 400-year span (e.g., 2000 to 2400)
+    print_calendar(2000, 2400)
